@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "rpitst elibrary",
   description: "the cambodia e-library",
+  verification: {
+    google: "25BReDN8kEZKLhepDXdmBiA9awH4ORf37ssAZXSfUuE",
+  },
 };
 
 export default function RootLayout({ children }) {
