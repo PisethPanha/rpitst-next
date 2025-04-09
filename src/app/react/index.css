@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Khmer OS Muol Light';
+    src: url('./assets/KhmerOS_muollight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
