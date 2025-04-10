@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 function ForiegnBook({datas}) {
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(false)
     const [data, setData] = useState(datas || []);
     const [dropdown, setDropdown] = useState(false);
     const [catagory, setGatagory] = useState("")
